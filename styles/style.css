@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
+
+body{
+    background-color: rgb(16, 16, 16);
+    color:white;
+    font-size: 16px;
+    font-family: 'Space Grotesk', sans-serif;
+
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.container{
+    width: 100%;
+  
+}
+.navbar{
+    font-size: 2em;
+    display:flex;
+    align-items: center;
+}
+.images{
+    position: absolute;
+    right: 1px;
+    display:flex;
+    gap:25px;
+}
+.adam{
+    position:absolute;
+    z-index: -1;
+    top:1px;
+    right: 1px;
+    height: 100%;
+}
+.head{
+    font-size: 5em;
+}
+.keyes{
+    text-decoration: underline rgb(53, 167, 129);
+    z-index: 1;
+}
+.contact{
+   
+        text-decoration: underline rgb(53, 167, 129);
+        border: none;
+        color: white;
+        font-size: large;
+        text-transform: uppercase;
+}
+.contact:hover{
+    background-color: rgb(181, 163, 135);
+}
+.circle{
+    position: absolute;
+    z-index: 1;
+    right: 350px;
+    height: 100px;
+    width: 100px;
+    bottom: 50px;
+}
+hr{
+    margin-top: 200px;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.skills-1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.skills-2{
+display:flex;
+margin-right: 50px;
+justify-content: space-around;
+}
+.box{
+    
+}
+.ring{
+    position: absolute;
+    right: -19%;
+}
+.ring-2{
+    position: absolute;
+    top: 150px;
+    left: -15%;
+
+}
+.bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.pro-box > img{
+    max-width: 75%;
+    max-height: 75%;
+}
+.projekt{
+    
+    display:flex;
+    flex-direction: row;
+}
+.pro-box{
+
+    display: flex;
+    flex-direction: column;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+.head-contact{
+    font-size: 5em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 25px;
+}
+.contact-div{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+input{
+    background:gray;
+    width: 300px;
+    height: 50px;
+}
+.textarea{
+    height:100px;
+}
+.submit{
+    text-decoration: underline rgb(53, 167, 129);
+    border: none;
+    color: black;
+    background: black;
+    font-family: inherit;
+    color: white;
+    font-size: large;
+}
+input{
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.submit{
+    background: none;
+}
+.footer{
+    font-size: 2.1em;
+    display: flex;
+    align-items: center;
+}
+.ring-3{
+    position: absolute;
+    left: -15%;
+}
